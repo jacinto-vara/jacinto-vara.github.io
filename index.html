@@ -3,29 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Pessoal</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>canto do vazio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
-            text-align: center;
+            margin: 0;
+            padding: 0;
         }
         header {
-            background-color: black; /* Mudou para preto */
+            background-color: #4CAF50;
             color: white;
-            padding: 10px;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        section {
+            margin: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Site!</h1>
+        <h1>Bem-vindo ao cantinho do vazio</h1>
     </header>
-    <h2>Sobre Mim</h2>
-    <p>Oi! Eu sou [Seu Nome]. Este é meu primeiro site!</p>
+
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Gosto de estudar programação :).</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <p>Adicione aqui seus projetos e realizações.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>https://www.instagram.com/gabimaru.v0id/?utm_source=ig_web_button_share_sheet.</p>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Meu Nome</p>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
